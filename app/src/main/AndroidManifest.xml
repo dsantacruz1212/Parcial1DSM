@@ -18,6 +18,14 @@
             android:label="Ejercicio 1">
         </activity>
         <activity
+            android:name=".Ejercicio2"
+            android:label="Ejercicio 2">
+        </activity>
+        <activity
+            android:name=".Ejercicio3"
+            android:label="Ejercicio 3">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

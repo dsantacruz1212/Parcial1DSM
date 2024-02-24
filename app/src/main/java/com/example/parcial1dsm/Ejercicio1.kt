@@ -34,7 +34,14 @@ class Ejercicio1 : AppCompatActivity() {
             val promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 
             // Mostrar el resultado en el TextView
-            textViewResultados.text = "Nombre: $nombre\nPromedio: $promedio"
+            textViewResultados.textSize = 20f
+            textViewResultados.text = "Nombre: $nombre\n" +
+                    "Nota 1: $nota1\n" +
+                    "Nota 2: $nota2\n" +
+                    "Nota 3: $nota3\n" +
+                    "Nota 4: $nota4\n" +
+                    "Nota 5: $nota5\n" +
+                    "Promedio: $promedio"
 
 
     }
